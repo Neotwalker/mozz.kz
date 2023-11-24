@@ -12,6 +12,10 @@
 	line-height: 20px;
 }
 
+.mobile{
+	display: none;
+}
+
 @media screen and (max-width : 992px) {
 	#splide-2 .theme-arrows.splide__arrows--ltr{
 		top: 840px;
@@ -34,5 +38,14 @@
 	.max-width-330px{
 		max-width: 330px;
 		margin: 0 auto;
+	}
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+	.splide__slide--info h3 br{
+		display: none;
 	}
 }

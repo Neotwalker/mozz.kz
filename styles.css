@@ -16,6 +16,24 @@
 	display: none;
 }
 
+.politic--wrapper__info h2{
+	margin-bottom: 40px;
+}
+
+.politic--wrapper__info strong{
+	display: block;
+	margin-bottom: 20px;
+}
+
+.politic--wrapper__info p,
+.politic--wrapper__info ol{
+	margin-bottom: 30px;
+}
+
+.politic--wrapper__info ol li:not(:last-child){
+	margin-bottom: 15px;
+}
+
 @media screen and (max-width : 992px) {
 	#splide-2 .theme-arrows.splide__arrows--ltr{
 		top: 840px;
